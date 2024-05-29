@@ -2,7 +2,7 @@
 <html>
   <head>
     <!-- Meta Data -->
-    <title>Number Display JS</title>
+    <title>Number multiplier PHP</title>
     <link rel="stylesheet" href="/css/style.css">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
@@ -13,17 +13,17 @@
   <body>
 
     <?php
-      echo "<h1>Number display loop</h1>";
+      echo "<h1>Number multiplier loop</h1>";
       echo "<br>";
-      echo "<img src='/images/number.jpg' style='width:200px'>";
+      echo "<img src='/images/multiplyFav.png' style='width:200px'>";
       echo "<br>";
     ?>
     <br>
     <form action="./results.php" method="post" target="results">
       <label for="lblAge">Number 1:</label>
-      <input type="number" id="max" placeholder="max number" name="max" step=""><br><br>
+      <input type="number" id="1" placeholder="number 1" name="1" step=""><br><br>
       <label for="lblAge">Number 2:</label>
-      <input type="number" id="min" placeholder="min number" name="min"><br><br>
+      <input type="number" id="2" placeholder="number 2" name="2"><br><br>
       <input type="submit" value="Display numbers">
     </form>
     <?php
